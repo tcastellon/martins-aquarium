@@ -56,5 +56,27 @@ export const database = {
             diet: "Omnivore",
             image: "https://www.sosuabeachdr.com/wp-content/uploads/2018/10/chromis-sosuareef4.jpg"
         }
+    ],
+    tips: [
+        {
+            topic: "Setting up your aquarium",
+            text: "Choose a suitable tank size based on the fish species you want to keep. Ensure proper filtration, heating, and lighting. Decorate with plants and rocks to create a natural habitat."
+        },
+        {
+            topic: "Water quality",
+            text: "Regularly test the water parameters such as pH, ammonia, nitrite, and nitrate levels. Perform partial water changes to maintain good water quality and remove toxins."
+        },
+        {
+            topic: "Feeding",
+            text: "Feed your fish a balanced diet appropriate for their species. Avoid overfeeding, as it can lead to water quality issues. Remove uneaten food after feeding."
+        },
+        {
+            topic: "Observation and monitoring",
+            text: "Regularly observe your fish for signs of stress or illness. Monitor daily for any irregular behavior."
+        },
+        {
+            topic: "Other considerations",
+            text: "Avoid touching the fish, loud noises and vibrations, don't overcrowd the tank, and ensure compatibility of species to prevent aggression."
+        }
     ]
 }

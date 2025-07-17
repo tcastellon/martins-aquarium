@@ -1,12 +1,12 @@
 import { fishList } from './fishList.js'
-// import { tipList } from './tipList.jss'
+import { tipList } from './tipList.js'
 // import { locationList } from './locationList.jss'
 
 //Generate fish list
 const fishHTML = fishList()
 
 //Generate the care tips
-// const tipHTML = tipList()
+const tipHTML = tipList()
 
 //Generate the location list
 // const locationHTML = locationList()
@@ -22,4 +22,15 @@ const renderFishToDOM = (fishHTML) => {
     }
 }
 
+const renderTipsToDom = (tipHTML) => {
+    const tipsList = document.getElementById('tipList')
+
+    if (tipsList) {
+        tipsList.innerHTML = tipHTML
+    } else {
+        console.error('Could not find element with id "tipList"')
+    }
+}
+
 renderFishToDOM(fishHTML)
+renderTipsToDom(tipHTML)
