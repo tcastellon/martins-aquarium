@@ -32,5 +32,6 @@ const renderTipsToDom = (tipHTML) => {
     }
 }
 
+
 renderFishToDOM(fishHTML)
 renderTipsToDom(tipHTML)
