@@ -6,7 +6,7 @@ export const database = {
             length: 3,
             location: "Great Barrier Reef",
             diet: "Omnivore",
-            image: "https://static.wikia.nocookie.net/ultimate-cinematic-universe/images/d/d1/Nemo-at-reef.png/revision/latest/thumbnail/width/360/height/450?cb=20191028013632"
+            image: "https://i.pinimg.com/736x/ab/91/d4/ab91d4493c9143b10412c9a288d33a18.jpg"
         },
         {
             name: "Dory",
@@ -14,7 +14,7 @@ export const database = {
             length: 5,
             location: "Great Barrier Reef",
             diet: "Omnivore",
-            image: "https://static.wikia.nocookie.net/disney/images/3/36/Profile_-_Dory.png/revision/latest/thumbnail/width/360/height/360?cb=20240410214311"
+            image: "https://shyandfearfuldogs.com/wp-content/uploads/2017/04/Dory-Moments.jpg"
         },
         {
             name: "Fred",
