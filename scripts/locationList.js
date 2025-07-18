@@ -8,7 +8,7 @@ export const locationList = () => {
         locationHTML += `
             <article class="location">
                 <h3 class="location_name">${location.name}</h3>
-                <p class="location_species">Country: ${location.country}}</p>
+                <p class="location_species">Country: ${location.country}</p>
                 <p class="location_description">Description: ${location.description}</p>
             </article>
         `
