@@ -11,3 +11,7 @@
     overflow: hidden;
     transition: transform 0.3s ease;
 }
+
+.fish_image {
+    max-width: 10rem;
+}
