@@ -114,7 +114,8 @@ export const database = {
             name: "Caribbean Sea",
             country: "Bahamas, Cuba, Dominican Republic, Jamaica, Puerto Rico, and several more",
             description: "The Caribbean Sea is a large tropical sea in the Western Atlantic Ocean, known for its beautiful turquoise waters, vibrant coral reefs, and numerous islands. The sea is renowned for its rich biodiversity and is a popular destination for tourism, watersports, and fishing."
-        },{
+        },
+        {
             name: "Gulf of Mexico",
             country: "The United States, Mexico, and Cuba",
             description: "Surrounded by the United States, Mexico and Cuba, the Gulf of Mexico is 600,000 square miles of warm, sunlit waters and a steady food supply for an array of fish, wildlife and humans alike. The Gulf is a semi-enclosed sea that connects to the Atlantic Ocean through the Florida Straits and the Yucatán Channel."
