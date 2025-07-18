@@ -9,24 +9,30 @@
 </head>
 <body>
    <header>
-       <h1>Martin's Aquarium</h1>
+       <h1 class="title">Martin's Aquarium</h1>
    </header>
 
    <main class="main_content">
-        <h2 class="fish_header">Fish</h2>
+    <div class="fish_container">
+       <h2 class="fish_header">Fish</h2>
        <section id="fishList">
            <!-- Fish grid will be dynamically generated here -->
        </section>
+    </div>
 
-        <h2 class="tips_header">Care Tips</h2>
+    <div class="tips_container">
+       <h2 class="tips_header">Care Tips</h2>
        <aside id="tipList">
            <!-- Care tips will be dynamically generated here -->
        </aside>
+    </div>
 
-        <h2 class="locations_header">Locations</h2>
+    <div class="locations_container">
+       <h2 class="locations_header">Locations</h2>
        <section id="locationList">
            <!-- Location grid will be dynamically generated here -->
        </section>
+    </div>
    </main>
 
    <script src="./scripts/main.js" type="module"></script>
