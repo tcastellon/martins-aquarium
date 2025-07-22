@@ -28,8 +28,6 @@
 
 .fish_container {
     display: flex;
-    flex-basis: 300px;
-    flex-grow: 1;
     flex-direction: column;
     align-self: stretch;
     max-width: 500px;
@@ -43,27 +41,26 @@
 
 .locations_container {
     display: flex;
-    flex-basis: 300px;
-    flex-grow: 1;
     flex-direction: column;
-    align-self: stretch;
     align-items: center;
+    margin-bottom: 20px;
     background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-    overflow: auto;
+    overflow: hidden;
     transition: transform 0.3s ease;
 }
 
 .tips_container {
+    display: flex;
     flex-basis: 300px;
     flex-grow: 1;
     max-width: 500px;
+    max-height: 800px;
     align-self: stretch;
     margin-left: 5px;
     margin-bottom: 20px;
     padding: 20px;
-    display: flex;
     flex-direction: column;
     background-color: #ffffff;
     border-radius: 8px;
@@ -72,7 +69,18 @@
     transition: transform 0.3s ease;
 }
 
-
+.holy_container {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    max-width: 500px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    overflow: auto;
+    transition: transform 0.3s ease;
+}
 
 h2.fish_header {
     font-size: 24px;
@@ -88,6 +96,62 @@ h2.fish_header {
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
+}
+
+.holy_list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.holy_fish {
+    flex-basis: 300px;
+    flex-grow: 1;
+    max-width: 200px;
+    max-height: 300px;
+    margin-bottom: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.soldier_fish {
+    flex-basis: 300px;
+    flex-grow: 1;
+    max-width: 200px;
+    max-height: 300px;
+    margin-bottom: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.regular_fish {
+    flex-basis: 300px;
+    flex-grow: 1;
+    max-width: 200px;
+    max-height: 300px;
+    margin-bottom: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transition: transform 0.3s ease;
 }
 
 .fish {
@@ -161,6 +225,10 @@ h3.location_name {
     text-align: center;
 }
 
-article.location {
+h2.holy_header {
+    text-align: center;
+}
+
+.location {
     padding: 5px;
 }

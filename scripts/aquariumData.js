@@ -27,7 +27,7 @@ export const database = {
         {
             name: "Bubbles",
             species: "Queen Angelfish",
-            length: 15,
+            length: 12,
             location: "Coral reefs of the western Atlantic Ocean",
             diet: "Omnivore",
             image: "https://www.swelluk.com/media/catalog/product/q/u/queen_angelfish.png?store=default&image-type=image"
@@ -59,10 +59,10 @@ export const database = {
         {
             name: "Bruce",
             species: "Great White Shark",
-            length: 15, 
+            length: 20, 
             location: "Pacific Ocean",
             diet: "Carnivore",
-            image: "https://example.com/images/bruce.jpg"
+            image: "https://www.usatoday.com/gcdn/presto/2022/03/24/USAT/fe333d8d-ef90-429c-9474-1a22c2d8bf3c-SHARK_FRIENDS_ADOBE_.jpg?crop=1512,850,x331,y152&width=660&height=371&format=pjpg&auto=webp"
         },
         {
             name: "Gill",
@@ -70,7 +70,7 @@ export const database = {
             length: 8,
             location: "Indo-Pacific",
             diet: "Omnivore",
-            image: "https://example.com/images/gill.jpg"
+            image: "https://krakencorals.co.uk/media/catalog/product/cache/80ed15a9f83d2b6e90ecb6abc6958a25/_/m/_m_o_moorish_idol_15.jpg"
         },
         {
             name: "Flounder",
@@ -78,7 +78,7 @@ export const database = {
             length: 9, 
             location: "Hawaiian Reefs",
             diet: "Herbivore",
-            image: "https://example.com/images/flounder.jpg"
+            image: "https://www.aquariumofpacific.org/images/made_new/email_images-yellow_tang_in_front_of_coral_600_q85.jpg"
         },
         {
             name: "Peach",
@@ -86,7 +86,7 @@ export const database = {
             length: 7,
             location: "Monterey Bay",
             diet: "Carnivore",
-            image: "https://example.com/images/peach.jpg"
+            image: "https://originaldiving.d3r.site/images/blog_gallery/565262-red-starfish.jpg"
         },
         {
             name: "Anchor",
@@ -94,7 +94,7 @@ export const database = {
             length: 11,
             location: "Galápagos Islands",
             diet: "Carnivore",
-            image: "https://example.com/images/anchor.jpg"
+            image: "https://www.sharksandrays.com/wp-content/uploads/2020/09/Great-Hammerhead-Shark-242.jpg"
         },
         {
             name: "Destiny",
@@ -102,7 +102,7 @@ export const database = {
             length: 35, 
             location: "Monterey Bay Aquarium",
             diet: "Filter Feeder",
-            image: "https://example.com/images/destiny.jpg"
+            image: "https://www.nhm.ac.uk/content/dam/nhm-www/discover/whale-sharks/whale-shark-swimming-full-width.jpg.thumb.1160.1160.png"
         },
         {
             name: "Bailey",
@@ -110,15 +110,15 @@ export const database = {
             length: 20, 
             location: "Arctic Ocean",
             diet: "Carnivore",
-            image: "https://example.com/images/bailey.jpg"
+            image: "https://www.georgiaaquarium.org/wp-content/uploads/2018/09/beluga-whale-webcam-9.jpg"
         },
         {
             name: "Coral",
             species: "Angelfish",
-            length: 40, 
+            length: 40, // divisible by 5
             location: "Coral Triangle",
             diet: "Omnivore",
-            image: "https://example.com/images/coral.jpg"
+            image: "https://cdn.britannica.com/55/13455-004-5E6843A7.jpg"
         }
     ],
     tips: [
