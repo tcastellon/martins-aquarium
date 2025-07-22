@@ -12,6 +12,7 @@
 .main {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .main_container {
@@ -150,4 +151,16 @@ img.fish_image {
     margin: 0;
     color: #666666;
     line-height: 1.5;
+}
+
+h2.tips_header{
+    text-align: center;
+}
+
+h3.location_name {
+    text-align: center;
+}
+
+article.location {
+    padding: 5px;
 }
