@@ -55,6 +55,70 @@ export const database = {
             location: "Gulf of Mexico, Caribbean Sea, and western Atlantic Ocean",
             diet: "Omnivore",
             image: "https://www.sosuabeachdr.com/wp-content/uploads/2018/10/chromis-sosuareef4.jpg"
+        },
+        {
+            name: "Bruce",
+            species: "Great White Shark",
+            length: 15, 
+            location: "Pacific Ocean",
+            diet: "Carnivore",
+            image: "https://example.com/images/bruce.jpg"
+        },
+        {
+            name: "Gill",
+            species: "Moorish Idol",
+            length: 8,
+            location: "Indo-Pacific",
+            diet: "Omnivore",
+            image: "https://example.com/images/gill.jpg"
+        },
+        {
+            name: "Flounder",
+            species: "Yellow Tang",
+            length: 9, 
+            location: "Hawaiian Reefs",
+            diet: "Herbivore",
+            image: "https://example.com/images/flounder.jpg"
+        },
+        {
+            name: "Peach",
+            species: "Starfish",
+            length: 7,
+            location: "Monterey Bay",
+            diet: "Carnivore",
+            image: "https://example.com/images/peach.jpg"
+        },
+        {
+            name: "Anchor",
+            species: "Hammerhead Shark",
+            length: 11,
+            location: "Galápagos Islands",
+            diet: "Carnivore",
+            image: "https://example.com/images/anchor.jpg"
+        },
+        {
+            name: "Destiny",
+            species: "Whale Shark",
+            length: 35, 
+            location: "Monterey Bay Aquarium",
+            diet: "Filter Feeder",
+            image: "https://example.com/images/destiny.jpg"
+        },
+        {
+            name: "Bailey",
+            species: "Beluga Whale",
+            length: 20, 
+            location: "Arctic Ocean",
+            diet: "Carnivore",
+            image: "https://example.com/images/bailey.jpg"
+        },
+        {
+            name: "Coral",
+            species: "Angelfish",
+            length: 40, 
+            location: "Coral Triangle",
+            diet: "Omnivore",
+            image: "https://example.com/images/coral.jpg"
         }
     ],
     tips: [
